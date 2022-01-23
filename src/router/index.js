@@ -25,8 +25,8 @@ export default new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
-    { path: '/', redirect: '/beer-choice' },
-    new Page('/beer-choice', 'BeerChoice', 'beerChoice'),
+    { path: '/', redirect: '/main-page' },
+    new Page('/main-page', 'BeerChoice', 'mainPage'),
   ],
 
   scrollBehavior() {
